@@ -727,9 +727,9 @@ If you discover vulnerabilities:
 
 **Made with ❤️ by RAM**
 
-**Developer:** Ram Prasad Sahoo  
-**Email:** ramprasadsahoo42@gmail.com  
-**GitHub:** [@ram-prasad-sahoo](https://github.com/ram-prasad-sahoo)
+**Developer:** Yaswant Pandey  
+**Email:** mrindianh27@gmail.com  
+**GitHub:** https://github.com/indianhacker126
 
 *Empowering security professionals with AI-driven vulnerability assessment*
 
@@ -754,5 +754,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Version:** v1.0.0  
 **Last Updated:** November 2025
-#   s u d a r s h a n  
+#   s u d a r s h a n 
+ 
  
