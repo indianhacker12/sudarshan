@@ -1,15 +1,4 @@
-Below is the **fully polished, cleanly structured, GitHub-ready `README.md` file** for your **SUDARSHAN AI Security Scanner**.
-Tum isko seedha **README.md me paste karo**, GitHub par **perfect render hoga**, koi alignment issue nahi aayega.
 
----
-
-# **README.md (FINAL VERSION)**
-
-**(Copy–Paste ready with perfect GitHub formatting)**
-
----
-
-````md
 <div align="center">
   <img src="logo.png" width="130">
 
@@ -297,7 +286,7 @@ Unauthorized scanning is illegal.
 
 **Developer:** Yaswant Pandey
 **Email:** [mrindianh27@gmail.com](mailto:mrindianh27@gmail.com)
-**GitHub:** [https://github.com/indianhacker126](https://github.com/indianhacker126)
+**GitHub:** [https://github.com/indianhacker12](https://github.com/indianhacker12)
 
 ---
 
