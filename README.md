@@ -1,3 +1,15 @@
+Below is the **fully polished, cleanly structured, GitHub-ready `README.md` file** for your **SUDARSHAN AI Security Scanner**.
+Tum isko seedha **README.md me paste karo**, GitHub par **perfect render hoga**, koi alignment issue nahi aayega.
+
+---
+
+# **README.md (FINAL VERSION)**
+
+**(Copy–Paste ready with perfect GitHub formatting)**
+
+---
+
+````md
 <div align="center">
   <img src="logo.png" width="130">
 
@@ -108,3 +120,204 @@ ke liye specially designed.
 ```bash
 git clone https://github.com/indianhacker12/sudarshan.git
 cd sudarshan
+````
+
+### Windows
+
+```bash
+install.bat
+```
+
+### Linux/macOS
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+Installer performs:
+
+* Python dependency installation
+* Ollama setup
+* LLaMA 3.2 (3B) model install
+* Environment check
+
+---
+
+# How to Run
+
+## GUI Mode (Recommended)
+
+```bash
+python sudarshan_gui.py
+```
+
+or
+
+```bash
+python sudarshan.py
+```
+
+## CLI Mode
+
+### Basic Scan
+
+```bash
+python sudarshan.py -u https://example.com --basic
+```
+
+### Medium Scan
+
+```bash
+python sudarshan.py -u https://example.com
+```
+
+### Aggressive Scan
+
+```bash
+python sudarshan.py -u https://example.com --aggressive
+```
+
+### Advanced
+
+```bash
+python main.py -u https://example.com --owasp-all --chain-attacks
+```
+
+---
+
+# Usage Examples
+
+### Quick assessment
+
+```bash
+python sudarshan.py -u http://testphp.vulnweb.com/ --basic
+```
+
+### Standard assessment
+
+```bash
+python sudarshan.py -u http://demo.testfire.net/
+```
+
+### Full audit with verbose output
+
+```bash
+python sudarshan.py -u https://example.com --aggressive --verbose
+```
+
+### Custom payloads
+
+```bash
+python main.py -u https://example.com --custom-payloads payloads.txt
+```
+
+---
+
+# Scan Modes
+
+## Basic Scan
+
+* Fast
+* Common vulnerabilities only
+* No chain attacks
+
+## Medium Scan (Default)
+
+* OWASP Top 10 full
+* AI analysis
+* Optional chain attack detection
+
+## Aggressive Scan
+
+* Deep scanning
+* Chain attacks enabled
+* Best for pre-production audits
+
+---
+
+# Troubleshooting
+
+### Python Not Found
+
+Install Python 3.8+
+
+### Ollama not running
+
+```bash
+ollama serve
+curl http://localhost:11434/api/tags
+```
+
+### Model missing
+
+```bash
+ollama pull llama3.2:3b
+```
+
+### GUI not opening
+
+```bash
+sudo apt install python3-tk
+```
+
+### Dependencies issue
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+---
+
+# Help & Support
+
+### CLI Help:
+
+```bash
+python sudarshan.py --help
+python verify_installation.py
+```
+
+---
+
+# Legal Notice
+
+SUDARSHAN is for:
+
+* Authorized security testing
+* Educational usage
+* Systems where you have explicit written permission
+
+Unauthorized scanning is illegal.
+
+---
+
+# Author
+
+**Developer:** Yaswant Pandey
+**Email:** [mrindianh27@gmail.com](mailto:mrindianh27@gmail.com)
+**GitHub:** [https://github.com/indianhacker126](https://github.com/indianhacker126)
+
+---
+
+# License
+
+MIT License
+
+---
+
+# Acknowledgments
+
+* Ollama
+* Meta AI
+* OWASP
+* Security Community
+
+---
+
+© 2025 Yaswant Pandey. All Rights Reserved.
+
+```
+
+```
