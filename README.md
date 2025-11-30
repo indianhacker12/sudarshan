@@ -6,10 +6,6 @@
 
 ### Professional AI-Powered Web Application Security Testing Platform
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-v1.0.0-orange.svg)](https://github.com/ram-prasad-sahoo/sudarshan)
-
 **Enterprise-grade security scanner combining traditional penetration testing with AI analysis**
 
 </div>
@@ -650,12 +646,6 @@ python verify_installation.py
 ```
 
 
-
-### Contact & Support
-
-- 📧 **Email**: ramprasadsahoo42@gmail.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/ram-prasad-sahoo/sudarshan/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/ram-prasad-sahoo/sudarshan/discussions)
 
 ### Frequently Asked Questions
 
