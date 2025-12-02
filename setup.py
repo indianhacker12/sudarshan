@@ -25,11 +25,11 @@ setup(
     name="Sudarshan-ai-security-scanner",
     version="1.0.0",
     author="Yaswant Pandey",
-    author_email="ramprasadsahoo42@gmail.com",
+    author_email="mrindianh12@gmail.com",
     description="Advanced AI-Powered Web Security Scanner with OWASP Top 10 Coverage",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ram-prasad-sahoo/sudarshan",
+    url="https://github.com/indianhacker12/sudarshan",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -63,8 +63,8 @@ setup(
         "web-security", "ethical-hacking", "security-assessment", "llama", "ollama"
     ],
     project_urls={
-        "Bug Reports": "https://github.com/ram-prasad-sahoo/sudarshan/issues",
-        "Source": "https://github.com/ram-prasad-sahoo/sudarshan",
+        "Bug Reports": "https://github.com/indianhacker12/sudarshan/issues",
+        "Source": "https://github.com/indianhacker12/sudarshan",
         "Documentation": "https://Sudarshan-scanner.readthedocs.io/",
     },
 )

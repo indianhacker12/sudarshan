@@ -96,8 +96,8 @@ def display_banner():
     # Additional info
     print(f"    Version: v1.0.0")
     print(f"    Author: Yaswant Pandey")
-    print(f"    Email: ramprasadsahoo42@gmail.com")
-    print(f"    GitHub: https://github.com/ram-prasad-sahoo/sudarshan")
+    print(f"    Email: mrindianh12@gmail.com")
+    print(f"    GitHub: https://github.com/indianhacker12/sudarshan")
     print()
     
     # Legal disclaimer

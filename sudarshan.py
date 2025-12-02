@@ -189,13 +189,13 @@ SUPPORT & DOCUMENTATION:
   Documentation: README.md
   Installation:  docs/INSTALLATION_GUIDE.md
   Commands:      docs/CLI_COMMANDS.md
-  Issues:        https://github.com/ram-prasad-sahoo/sudarshan/issues
-  Email:         ramprasadsahoo42@gmail.com
+  Issues:        https://github.com/indianhacker12/sudarshan/issues
+  Email:         mrindianh12@gmail.com
 
 ========================================================================
 
 Made with Love by Yaswant Pandey
-Email: ramprasadsahoo42@gmail.com
+Email: mrindianh12@gmail.com
         """)
         return 0
     

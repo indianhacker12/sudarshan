@@ -108,7 +108,7 @@ LEGAL NOTICE:
    - Unauthorized scanning may violate computer crime laws
    - Users are responsible for complying with all applicable laws
 
-For more information: https://github.com/ram-prasad-sahoo/sudarshan
+For more information: https://github.com/indianhacker12/sudarshan
         """
     )
     

@@ -9,7 +9,7 @@ License: MIT
 
 __version__ = "1.1.0"
 __author__ = "Yaswant Pandey"
-__email__ = "ramprasadsahoo42@gmail.com"
+__email__ = "mrindianh12@gmail.com"
 __license__ = "MIT"
 __description__ = "Advanced AI-Powered Web Security Scanner with OWASP Top 10 Coverage"
 
