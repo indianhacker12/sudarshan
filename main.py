@@ -14,7 +14,7 @@ from pathlib import Path
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root))
 
-from core.scanner_engine import AstravaAIScanner
+from core.scanner_engine import SudarshanAIScanner
 from core.config import Config
 from utils.logger import setup_logger
 from utils.banner import display_banner
@@ -97,7 +97,7 @@ Use sudarshan.py for simplified mode selection:
   python sudarshan.py -u <URL> --aggressive  # Deep scan (Thorough)
 
 Or launch GUI:
-  python astrava_gui.py                    # Professional GUI interface
+  python Sudarshan_gui.py                    # Professional GUI interface
 
 ═══════════════════════════════════════════════════════════════════════
 LEGAL NOTICE:
@@ -197,7 +197,7 @@ For more information: https://github.com/ram-prasad-sahoo/sudarshan
         model=args.model
     )
     
-    scanner = AstravaAIScanner(config, logger)
+    scanner = SudarshanAIScanner(config, logger)
     
     try:
         # Run the scan

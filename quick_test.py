@@ -12,7 +12,7 @@ from pathlib import Path
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root))
 
-from core.scanner_engine import AstravaAIScanner
+from core.scanner_engine import SudarshanAIScanner
 from core.config import Config
 from utils.logger import setup_logger
 from utils.banner import display_banner
@@ -39,7 +39,7 @@ async def quick_test():
     
     try:
         # Initialize scanner
-        scanner = AstravaAIScanner(config, logger)
+        scanner = SudarshanAIScanner(config, logger)
         
         # Run scan
         print("[SEARCH] Starting scan...")

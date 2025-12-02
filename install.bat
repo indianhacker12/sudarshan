@@ -139,7 +139,7 @@ echo.
 echo 📋 Quick Start Guide:
 echo.
 echo   Launch GUI:
-echo     python astrava_gui.py
+echo     python Sudarshan_gui.py
 echo     python sudarshan.py
 echo.
 echo   CLI Scans:

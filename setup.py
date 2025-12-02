@@ -52,7 +52,7 @@ setup(
     },
     include_package_data=True,
     package_data={
-        "Astrava_ai_security_scanner": [
+        "Sudarshan_ai_security_scanner": [
             "templates/*",
             "payloads/*",
             "wordlists/*",

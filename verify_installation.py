@@ -161,7 +161,7 @@ def print_summary(results):
     if all(results.values()):
         print("\n  ✅ ALL CHECKS PASSED - Installation is complete!")
         print("\n  You can now run:")
-        print("     python astrava_gui.py    # Launch GUI")
+        print("     python Sudarshan_gui.py    # Launch GUI")
         print("     python sudarshan.py        # Launch GUI")
         print("     python sudarshan.py --help # View CLI options")
     else:

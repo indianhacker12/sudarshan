@@ -9,7 +9,7 @@ import subprocess
 from pathlib import Path
 from datetime import datetime
 
-class AstravaAttackModes:
+class SudarshanAttackModes:
     """Attack modes configuration for Sudarshan AI Security Scanner"""
     
     def __init__(self):
@@ -149,7 +149,7 @@ def main():
     args = parser.parse_args()
     
     # Create attack modes instance
-    attack_modes = AstravaAttackModes()
+    attack_modes = SudarshanAttackModes()
     
     # Show mode information
     config = attack_modes.get_mode_config(args.mode)

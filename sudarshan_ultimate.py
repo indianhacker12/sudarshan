@@ -46,11 +46,11 @@ def main():
         print()
         
         try:
-            from Astrava_advanced_gui import AstravaAdvancedGUI
+            from Sudarshan_advanced_gui import SudarshanAdvancedGUI
             import tkinter as tk
             
             root = tk.Tk()
-            app = AstravaAdvancedGUI(root)
+            app = SudarshanAdvancedGUI(root)
             root.mainloop()
             
         except ImportError as e:
@@ -109,11 +109,11 @@ def main():
             ============================================
 
             GUI MODE (Recommended):
-                python Astrava_ultimate.py
-                python Astrava_ultimate.py --gui
+                python Sudarshan_ultimate.py
+                python Sudarshan_ultimate.py --gui
 
             CLI MODE:
-                python Astrava_ultimate.py -u <URL> [OPTIONS]
+                python Sudarshan_ultimate.py -u <URL> [OPTIONS]
 
             ATTACK MODES:
                 --basic      [GREEN] Basic Scan (Fast)
@@ -132,16 +132,16 @@ def main():
             EXAMPLES:
             =========
             # Launch Ultimate GUI
-            python Astrava_ultimate.py
+            python Sudarshan_ultimate.py
 
             # Basic CLI scan
-            python Astrava_ultimate.py -u http://testphp.vulnweb.com/ --basic --verbose
+            python Sudarshan_ultimate.py -u http://testphp.vulnweb.com/ --basic --verbose
 
             # Aggressive CLI scan  
-            python Astrava_ultimate.py -u http://testphp.vulnweb.com/ --aggressive --verbose
+            python Sudarshan_ultimate.py -u http://testphp.vulnweb.com/ --aggressive --verbose
 
             # Medium CLI scan (default)
-            python Astrava_ultimate.py -u http://testphp.vulnweb.com/ --verbose
+            python Sudarshan_ultimate.py -u http://testphp.vulnweb.com/ --verbose
 
             GUI FEATURES:
             ============

@@ -255,7 +255,7 @@ main() {
     echo "📋 Quick Start Guide:"
     echo
     echo "  Launch GUI:"
-    echo "    $PYTHON_CMD astrava_gui.py"
+    echo "    $PYTHON_CMD Sudarshan_gui.py"
     echo "    $PYTHON_CMD sudarshan.py"
     echo
     echo "  CLI Scans:"

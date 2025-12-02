@@ -71,7 +71,7 @@ class ReportGenerator:
         # Generate filename
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         domain = urlparse(scan_results['target']).netloc.replace('.', '_')
-        filename = f"Astrava_report_{domain}_{timestamp}.html"
+        filename = f"Sudarshan_report_{domain}_{timestamp}.html"
         filepath = Path(self.config.output_dir) / filename
         
         # Generate HTML content
@@ -1179,7 +1179,7 @@ class ReportGenerator:
         # Generate filename
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         domain = urlparse(scan_results['target']).netloc.replace('.', '_')
-        filename = f"Astrava_report_{domain}_{timestamp}.json"
+        filename = f"Sudarshan_report_{domain}_{timestamp}.json"
         filepath = Path(self.config.output_dir) / filename
         
         # Write JSON report

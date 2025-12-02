@@ -7,7 +7,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-def setup_logger(name: str = "Astrava_scanner", verbose: bool = False) -> logging.Logger:
+def setup_logger(name: str = "Sudarshan_scanner", verbose: bool = False) -> logging.Logger:
     """Setup logger with appropriate formatting and handlers"""
     
     # Create logger
@@ -38,7 +38,7 @@ def setup_logger(name: str = "Astrava_scanner", verbose: bool = False) -> loggin
     log_dir.mkdir(exist_ok=True)
     
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_file = log_dir / f"Astrava_scan_{timestamp}.log"
+    log_file = log_dir / f"Sudarshan_scan_{timestamp}.log"
     
     file_handler = logging.FileHandler(log_file)
     file_handler.setLevel(logging.DEBUG)

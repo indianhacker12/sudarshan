@@ -19,7 +19,7 @@ from modules.chain_attacks import ChainAttackModule
 from utils.report_generator import ReportGenerator
 from utils.risk_calculator import RiskCalculator
 
-class AstravaAIScanner:
+class SudarshanAIScanner:
     """Main scanner engine that orchestrates all modules"""
     
     def __init__(self, config: Config, logger: logging.Logger):

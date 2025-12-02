@@ -19,7 +19,7 @@ import time
 import requests
 import queue
 
-class AstravaAdvancedGUI:
+class SudarshanAdvancedGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Sudarshan AI Security Scanner - Advanced Professional Interface")
@@ -1536,7 +1536,7 @@ LAST UPDATED: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 def main():
     """Main function"""
     root = tk.Tk()
-    app = AstravaAdvancedGUI(root)
+    app = SudarshanAdvancedGUI(root)
     
     def on_closing():
         if app.scanning:

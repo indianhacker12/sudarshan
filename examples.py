@@ -12,7 +12,7 @@ from pathlib import Path
 project_root = Path(__file__).parent
 sys.path.insert(0, str(project_root))
 
-from core.scanner_engine import AstravaAIScanner
+from core.scanner_engine import SudarshanAIScanner
 from core.config import Config
 from utils.logger import setup_logger
 from utils.banner import display_banner
@@ -33,7 +33,7 @@ async def example_basic_scan():
     )
     
     # Run scan
-    scanner = AstravaAIScanner(config, logger)
+    scanner = SudarshanAIScanner(config, logger)
     results = await scanner.run_full_scan()
     
     print(f"[OK] Basic scan completed!")
@@ -59,7 +59,7 @@ async def example_owasp_comprehensive():
     )
     
     # Run scan
-    scanner = AstravaAIScanner(config, logger)
+    scanner = SudarshanAIScanner(config, logger)
     results = await scanner.run_full_scan()
     
     print(f"[OK] OWASP scan completed!")
@@ -83,7 +83,7 @@ async def example_passive_only():
     )
     
     # Run scan
-    scanner = AstravaAIScanner(config, logger)
+    scanner = SudarshanAIScanner(config, logger)
     results = await scanner.run_passive_scan()
     
     print(f"[OK] Passive scan completed!")
@@ -106,7 +106,7 @@ async def example_custom_model():
     )
     
     # Run scan
-    scanner = AstravaAIScanner(config, logger)
+    scanner = SudarshanAIScanner(config, logger)
     results = await scanner.run_full_scan()
     
     print(f"[OK] Custom model scan completed!")
@@ -129,7 +129,7 @@ async def example_json_output():
     )
     
     # Run scan
-    scanner = AstravaAIScanner(config, logger)
+    scanner = SudarshanAIScanner(config, logger)
     results = await scanner.run_full_scan()
     
     print(f"[OK] JSON scan completed!")
