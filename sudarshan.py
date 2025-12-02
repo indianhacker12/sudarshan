@@ -25,31 +25,8 @@ def main():
 
     """)
     
-    # No arguments - show interface options
+    # No arguments - launch GUI
     if len(sys.argv) == 1:
-        print(" Choose Interface:")
-        print(" 1. GUI (Desktop) - python sudarshan.py --gui")
-        print(" 2. Web Interface - python sudarshan.py --web")
-        print(" 3. CLI Mode - python sudarshan.py -u <URL>")
-        print()
-        return 0
-    
-    # Web interface
-    elif '--web' in sys.argv:
-        print(" Launching Web Interface...")
-        print(" Access at: http://localhost:5000")
-        print()
-        
-        try:
-            from run_web import main as web_main
-            return web_main()
-        except ImportError as e:
-            print(f"[ERROR] Error: {e}")
-            print(" Install web dependencies: pip install -r requirements_web.txt")
-            return 1
-    
-    # GUI interface
-    elif '--gui' in sys.argv:
         print(" Launching Professional GUI Interface...")
         print("Features: Large results display, 3 attack modes, AI analysis")
         print()
@@ -108,15 +85,13 @@ def main():
 
 SUDARSHAN - Professional AI-Powered Web Application Security Scanner
 Simplified launcher with three attack modes for easy scanning
-
+created by Yaswant Pandey
 ========================================================================
 USAGE:
 ========================================================================
 
-Interface Options:
-  python sudarshan.py                    # Show interface options
-  python sudarshan.py --gui              # Launch desktop GUI interface
-  python sudarshan.py --web              # Launch web interface
+GUI Mode (Recommended):
+  python sudarshan.py                    # Launch professional GUI interface
   python Sudarshan_gui.py                # Direct GUI launch
 
 CLI Mode:
@@ -158,8 +133,6 @@ OPTIONS:
 ========================================================================
 
   -u, --url <URL>        Target URL to scan (required for CLI mode)
-  --gui                  Launch desktop GUI interface
-  --web                  Launch web interface
   --basic                Run basic/fast scan (Fast)
   --aggressive           Run aggressive/deep scan (Thorough)
   --verbose              Enable detailed output logging
@@ -169,9 +142,8 @@ OPTIONS:
 EXAMPLES:
 ========================================================================
 
-Launch Interfaces:
-  python sudarshan.py --gui              # Desktop GUI
-  python sudarshan.py --web              # Web Interface
+Launch GUI:
+  python sudarshan.py
 
 Basic Scan (Fast):
   python sudarshan.py -u http://testphp.vulnweb.com/ --basic
