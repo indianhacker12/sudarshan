@@ -1,0 +1,49 @@
+{
+  "name": "sudarshan-ai-security-scanner",
+  "version": "1.0.0",
+  "description": "Professional AI-Powered Web Application Security Testing Platform with LLaMA 3.2 integration, OWASP Top 10 coverage, and advanced vulnerability detection",
+  "keywords": [
+    "security-scanner",
+    "web-security",
+    "vulnerability-scanner",
+    "penetration-testing",
+    "owasp-top-10",
+    "ai-security",
+    "llama-ai",
+    "cybersecurity",
+    "security-testing",
+    "web-application-security",
+    "sql-injection",
+    "xss-scanner",
+    "security-audit",
+    "ethical-hacking",
+    "bug-bounty",
+    "security-tools",
+    "python-security",
+    "automated-testing",
+    "vulnerability-assessment",
+    "security-research"
+  ],
+  "author": {
+    "name": "Yaswant Pandey",
+    "email": "mrindianh27@gmail.com",
+    "url": "https://github.com/indianhacker12"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indianhacker12/sudarshan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/indianhacker12/sudarshan/issues"
+  },
+  "homepage": "https://github.com/indianhacker12/sudarshan#readme",
+  "main": "sudarshan.py",
+  "scripts": {
+    "start": "python sudarshan.py",
+    "gui": "python sudarshan.py --gui",
+    "web": "python sudarshan.py --web",
+    "test": "python -m pytest tests/",
+    "install": "pip install -r requirements.txt"
+  }
+}
